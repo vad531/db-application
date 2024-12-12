@@ -7,7 +7,7 @@
     <!-- Регистрация сервлета для регистрации пользователей -->
     <servlet>
         <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>RegisterServlet</servlet-class>
+        <servlet-class>dto.RegisterServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RegisterServlet</servlet-name>
@@ -17,7 +17,7 @@
     <!-- Регистрация сервлета для логина пользователей -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>LoginServlet</servlet-class>
+        <servlet-class>dto.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -30,7 +30,7 @@
     </welcome-file-list>
     <servlet>
         <servlet-name>ReaderServlet</servlet-name>
-        <servlet-class>ReaderServlet</servlet-class>
+        <servlet-class>dto.ReaderServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
